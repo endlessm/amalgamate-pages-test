@@ -23,7 +23,7 @@ jobs:
 
       - uses: endlessm/godot-export-action@v2
         with:
-          godot_version: 4.3
+          godot_version: 4.5.1
 
       - name: Upload web artifact
         uses: actions/upload-artifact@v7
